@@ -1,6 +1,6 @@
 import random
 
-def generate_list(amount):
+def generate_list(amount: int):
     """
     Testea la funcion que genera una lista
     >>> random.seed(10)
@@ -16,7 +16,7 @@ def generate_list(amount):
         list.append(dictionary)
     return list
 
-def order_list(list):
+def order_list(list: list):
     """
     Testea la funcion que ordena una lista
     >>> random.seed(10)
